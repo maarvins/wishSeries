@@ -17,38 +17,38 @@ export function Form(){
 
     return(
         <div className="register-container">
-      <h1>Adicionar Série</h1>
-      <input 
-      type="text"
-      name="nome"
-      placeholder="Nome"
-      onChange={handleChangeValues}
-      />
-      <input 
-      type="text"
-      name="age"
-      placeholder="Ano de lançamento"
-      onChange={handleChangeValues}
-      />
-      <input 
-      type="text"
-      name="seasons"
-      placeholder="Temporadas"
-      onChange={handleChangeValues}
-      />
-      <input 
-      type="text"
-      name="synopsis"
-      placeholder="Sinopse"
-      onChange={handleChangeValues}
-      />
-      <input 
-      type="text"
-      name="category"
-      placeholder="Categoria"
-      onChange={handleChangeValues}
-      />
-      <button onClick={() => handleClickButton()}>Cadastrar</button>
-    </div>
+          <h1>Adicionar Série</h1>
+          <input 
+          type="text"
+          name="nome"
+          placeholder="Nome"
+          onChange={handleChangeValues}
+          />
+          <input 
+          type="text"
+          name="age"
+          placeholder="Ano de lançamento"
+          onChange={handleChangeValues}
+          />
+          <input 
+          type="text"
+          name="seasons"
+          placeholder="Temporadas"
+          onChange={handleChangeValues}
+          />
+          <input 
+          type="text"
+          name="synopsis"
+          placeholder="Sinopse"
+          onChange={handleChangeValues}
+          />
+          <input 
+          type="text"
+          name="category"
+          placeholder="Categoria"
+          onChange={handleChangeValues}
+          />
+          <button onClick={() => handleClickButton()}>Cadastrar</button>
+        </div>
     )
 }
