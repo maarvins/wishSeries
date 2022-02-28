@@ -20,7 +20,7 @@ export function Form(){
           <h1>Adicionar Série</h1>
           <input 
           type="text"
-          name="nome"
+          name="name"
           placeholder="Nome"
           onChange={handleChangeValues}
           />
